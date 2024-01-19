@@ -13,7 +13,7 @@ function Footer() {
     <motion.div  initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }} 
   className=' w-[80vw] flex flex-col items-center justify-center h-[80vh]'>
-        {/* hi */}
+        
         
             <p className='font-[Heading] text-[5vw] text-center'>Interested in working together</p>
             <p className='w-[80vw] text-center font-extralight text-[1.7vw]'>Ready to turn your vision into a reality? Let's connect and kickstart the journey of transforming your ideas into tangible, innovative solutions! Reach out to get started !!!</p>

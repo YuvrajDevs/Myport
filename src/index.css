@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'General';
+    src: local('General'), url('./assets/Fonts/Outfit-VariableFont_wght.ttf') format('woff');
+}
+@font-face {
+    font-family: 'MajorHeading';
+    src: local('MajorHeading'), url('./assets/Fonts/ElsieSwashCaps-Regular.ttf') format('woff');
+}
+@font-face {
+    font-family: 'Heading';
+    src: local('Heading'), url('./assets/Fonts/BebasNeue-Regular.ttf') format('woff');
+}
+
+body{
+    cursor: default;
+    background-color: #0E0F0C;
+}
+
+*{
+    /* overflow-x: hidden; */
+    font-family: 'General';
+    color: #FFE0CB;
+}
+
+&::-webkit-scrollbar {
+    width: 0%;
+  }
+
+
+
+

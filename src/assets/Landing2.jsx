@@ -31,7 +31,7 @@ function Landing2() {
   }}
   whileTap={{ scale: 0.9 }}
  src={clouds2} className='h-[18vw]' alt="" />
-           <div>
+           <div className='ml-10'>
            <p className='font-[Heading] text-[5vw] text-center'>HEY I AM YUVRAJ</p><br />
             <p className='w-[30vw] text-center font-thin text-[2.4vw]'>A student by day, UI magician by night. 
                 Turning funky designs into digital reality is my vibe.
@@ -54,7 +54,7 @@ function Landing2() {
         }
       }}
   whileTap={{ scale: 0.9 }}
-   src={clouds} className='mt-[20vw] ml-10 h-[18vw]' alt="" />
+   src={clouds} className='mt-[20vw] ml-5 h-[18vw]' alt="" />
    
         </div>
 

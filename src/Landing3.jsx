@@ -5,7 +5,7 @@ function Landing3() {
     <div  className='w-full h-screen flex items-center justify-center'>
     <motion.div 
     initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }}   className=' w-[80vw] flex flex-col items-center  h-[90vh] rounded-3xl bg-[#1D1D1D]'>
+  whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }}   className=' w-[80vw] flex flex-col items-center  h-[45vw] rounded-3xl bg-[#1D1D1D]'>
         
    <div className='bg-transparent flex'>
    <div className='bg-transparent w-[40vw] h-[50vh] items-center flex pt-12 flex-col '>
@@ -20,7 +20,7 @@ function Landing3() {
 <p className='bg-transparent font-extralight text-[1.3vw] mt-1 mb-1'>Apps</p>
 </div>
 
-<div className='bg-[#FFE0CB] h-[55vh] mt-14 w-[2.5px] rounded-sm'> </div>
+<div className='bg-[#FFE0CB] h-[28vw] mt-14 w-[2.5px] rounded-sm'> </div>
 
 <div className='bg-transparent w-[40vw] h-[50vh] items-center flex pt-12 flex-col '>
 

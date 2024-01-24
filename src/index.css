@@ -39,5 +39,87 @@ body{
 }
 
 
+@media only screen and (max-width: 1024px){
+    .yuvi{
+        font-size: 7vw;
+    }
+    .clouds{
+        height: 25vw;
+        width: max-content;
+    }
+    .cloud2{
+        margin-top: 40vw;
+    }
+    .Land2{
+        margin-top: 15vh;
+        padding: 2vw;
+        overflow: hidden;
+    }
+    .about{
+        font-size: 3vw;
+    }
+    .footer{
+        height: 100vh;
+    }
+    .foot1{
+        font-size: 7vw;
+    }
+
+    .foot2{
+        font-size: 2vw;
+    }
+    .link{
+        height: fit-content;
+        width: 10vw;
+    }
+    .yss{
+        width: 60vw;
+    }
+    .Landing3{
+        height: 100vh;
+    }
+}
 
 
+
+/* @media only screen and (max-width: 768px){
+
+.Land2{
+    height: 100vh;
+    overflow: hidden;
+}
+.yuvi{
+    font-size: 10vw;
+}
+.about{
+    font-size: 4vw;
+    width: 40vw;
+}
+.cloud2{
+    margin-top: 70vw;
+}
+.Landing3{
+    flex: none;
+}
+.Land3{
+    width: 80vw;
+    height: 90vw;
+    flex: none;
+}
+.land3cont{
+    flex: none;
+}
+.designer{
+    width: 80vw;
+    flex: none;
+}
+.heading{
+    font-size: 8vw;
+}
+.info{
+    font-size: 4vw;
+}
+.item{
+    font-size: 3vw;
+}
+} */

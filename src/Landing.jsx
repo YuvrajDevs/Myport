@@ -46,7 +46,7 @@ function Landing() {
           ease: [0, 0.71, 0.2, 1.01]  }}
       className='flex justify-between mt-[35vh] cursor-default'>
         <div className='ml-5 '>
-          <p className='font-[MajorHeading]  text-4vw sm:text-6vw lg:text-[6vw] leading-[6vw]'>
+          <p className='font-[MajorHeading]  text-[4vw] sm:text-[6vw] lg:text-[6vw] leading-[6vw]'>
             Crafting pixels, <br /> <span className='font-[MajorHeading] mt-[8vh] text-4vw sm:text-6vw lg:text-8vw '>Shaping websites.</span>
           </p>
         </div>

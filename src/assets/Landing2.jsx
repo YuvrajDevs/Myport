@@ -6,7 +6,7 @@ import birds from './ImagesPort/birds.png'
 
 function Landing2() {
   return (
-    <div className='w-full h-screen flex items-center justify-center'>
+    <div className='Land2 w-full h-screen flex items-center justify-center'>
     <motion.div  initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }}  
   className=' w-[80vw] flex items-center justify-center h-[80vh]'>
@@ -30,10 +30,10 @@ function Landing2() {
     transition: { duration: 0.4 },
   }}
   whileTap={{ scale: 0.9 }}
- src={clouds2} className='h-[18vw]' alt="" />
+ src={clouds2} className=' clouds h-[18vw]' alt="" />
            <div className='ml-10'>
-           <p className='font-[Heading] text-[5vw] text-center'>HEY I AM YUVRAJ</p><br />
-            <p className='w-[30vw] text-center font-thin text-[2.4vw]'>A student by day, UI magician by night. 
+           <p className='yuvi font-[Heading] text-[5vw] text-center'>HEY I AM YUVRAJ</p><br />
+            <p className='about w-[30vw] text-center font-thin text-[2.4vw]'>A student by day, UI magician by night. 
                 Turning funky designs into digital reality is my vibe.
                  Fluent in web and app development chatter. Let's code the cool stuff !!!</p>
            </div>
@@ -54,7 +54,7 @@ function Landing2() {
         }
       }}
   whileTap={{ scale: 0.9 }}
-   src={clouds} className='mt-[20vw] ml-5 h-[18vw]' alt="" />
+   src={clouds} className='cloud2 clouds mt-[20vw] ml-5 h-[18vw]' alt="" />
    
         </div>
 

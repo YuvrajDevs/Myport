@@ -9,10 +9,10 @@ import { motion } from "framer-motion"
 
 function Footer() {
   return (
-     <div className='footer w-full h-screen flex items-center justify-center'>
+     <div className='min-h-96 mt-[10vh] footer flex items-center justify-center'>
     <motion.div  initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }} 
-  className=' w-[80vw] flex flex-col items-center justify-center h-[80vh]'>
+  className=' w-[80vw] flex flex-col items-center justify-center h-[100vh]'>
         
         
             <p className='foot1 font-[Heading] text-[5vw] text-center'>Interested in working together</p>

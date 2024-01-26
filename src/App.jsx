@@ -6,7 +6,7 @@ import Foot from './Foot'
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Landing/>
       <Landing2/>
       <Landing3/>

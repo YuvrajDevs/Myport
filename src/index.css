@@ -22,7 +22,6 @@ body{
 }
 
 *{
-    /* overflow-x: hidden; */
     font-family: 'General';
     color: #FFE0CB;
 }
@@ -37,9 +36,13 @@ body{
     background-position: center; /* This will center the background image */
     background-repeat: no-repeat; /* This will prevent the background image from repeating */
 }
-
+/* 
+@media only screen and (max-height: 150px){
+   
+} */
 
 @media only screen and (max-width: 1024px){
+    
     .yuvi{
         font-size: 7vw;
     }
@@ -54,12 +57,10 @@ body{
         margin-top: 15vh;
         padding: 2vw;
         overflow: hidden;
+        min-height: 100vh;
     }
     .about{
         font-size: 3vw;
-    }
-    .footer{
-        height: 100vh;
     }
     .foot1{
         font-size: 7vw;
@@ -75,11 +76,10 @@ body{
     .yss{
         width: 60vw;
     }
-    .Landing3{
-        height: 100vh;
-    }
+    .Land3{
+        min-height: 100vh;
+    } 
 }
-
 
 
 /* @media only screen and (max-width: 768px){

@@ -7,7 +7,7 @@ import bg from './assets/ImagesPort/bg.jpg'
 function Landing() {
   return (
     
-    <div className='backg w-screen h-[100vh] flex flex-col justify-between'>
+    <div className='backg flex flex-col justify-between'>
       <div className='ml-5 flex justify-between'>
         <motion.div initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}

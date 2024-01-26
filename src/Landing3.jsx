@@ -2,10 +2,10 @@ import React from 'react'
 import { motion } from "framer-motion"
 function Landing3() {
   return (
-    <div  className='Landing3 w-full h-screen flex items-center justify-center'>
+    <div  className='min-h-96 Landing3  bg-transparent  flex items-center justify-center'>
     <motion.div 
     initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }}   className='Land3 m-[2vh] w-[80vw] flex flex-col items-center  h-[55vw] rounded-3xl bg-[#1D1D1D]'>
+  whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }}   className='Land3 m-[2vh] w-[80vw] flex flex-col items-center  h-[50vw] rounded-3xl bg-[#1D1D1D]'>
         
    <div className='land3cont bg-transparent flex'>
    <div className='designer bg-transparent w-[40vw] h-[32vw] items-center flex pt-12 flex-col '>

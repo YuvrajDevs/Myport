@@ -6,10 +6,10 @@ import birds from './ImagesPort/birds.png'
 
 function Landing2() {
   return (
-    <div className='Land2 w-full h-screen flex items-center justify-center'>
+    <div className='p-[10vw] Land2 bg-transparent  flex items-center justify-center'>
     <motion.div  initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }}  
-  className=' w-[80vw] flex items-center justify-center h-[80vh]'>
+  className='  flex items-center justify-center '>
         
         <div className='flex justify-evenly'>
           <motion.img
